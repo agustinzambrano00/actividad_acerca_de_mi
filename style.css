@@ -1,0 +1,25 @@
+header{
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.info-personal, .habilidades{
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+}
+
+.habilidades{ list-style-type: square; }
+
+.info-personal, .habilidades{ font-size: 20px;}
+
+footer{
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+@media (max-width: 1025px){
+    header, section, footer{ font-size:30px ;}
+}
